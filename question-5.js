@@ -26,7 +26,6 @@ function calculateTotalPrice(products, promotionCode) {
   }
   if (promotionCode === "SALE50") {
     totalPrice = totalPrice - totalPrice * 0.5;
-    console.log(totalPrice);
   } else if (promotionCode === "SALE20") {
     totalPrice = totalPrice - totalPrice * 0.2;
   }
